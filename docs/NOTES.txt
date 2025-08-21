@@ -1,0 +1,3 @@
+________________Questions_________________
+
+- Es necesario hacer validaciones?

@@ -1,0 +1,45 @@
+.ride-container {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.new-ride-button {
+  float: right;
+  background-color: #428bca;
+  color: white;
+  padding: 11px 47px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.rides-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.rides-table th,
+.rides-table td {
+  border: 1px solid #ccc;
+  padding: 11px 10px;
+  text-align: left;
+}
+
+.rides-table thead {
+  background-color: #f2f2f2;
+}
+
+.rides-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.rides-table a:hover {
+  text-decoration: underline;
+}

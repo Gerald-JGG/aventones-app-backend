@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 69%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 30px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.button-bookings {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.button-bookings:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.driver {
+  display: flex;
+  align-items: center;
+}
+
+.driver img {
+  width: 30px;
+  margin-right: 5px;
+}

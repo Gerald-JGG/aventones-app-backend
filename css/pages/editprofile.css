@@ -1,0 +1,70 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-family: Arial, sans-serif;
+}
+
+.profile-form {
+  width: 570px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-row {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-size: 14px;
+}
+
+.profile-field label {
+  margin-bottom: 3px;
+  color: #333;
+}
+
+.profile-field input,
+.profile-field select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.profile-cancel {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.profile-cancel:hover {
+  text-decoration: underline;
+}
+
+.profile-button {
+  background: #2e75d3;
+  color: white;
+  padding: 10px 58px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.profile-button:hover {
+  background-color: #1a5fb4;
+}

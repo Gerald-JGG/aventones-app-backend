@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aventones - Rides</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/pages/addride.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="top-header">
+        <img src="assets/img/car-icon.png" alt="Logo" class="logo-header" />
+        <h1>AVENTONES</h1>
+      </div>
+
+      <div class="bottom-header">
+        <nav>
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/rides.html">Rides</a></li>
+            <li><a href="/bookings.html">Bookings</a></li>
+          </ul>
+        </nav>
+
+        <div class="search-user">
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." />
+          </div>
+          <div class="user-icon">
+            <img src="assets/img/user-icon.png" alt="User" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2>New Ride</h2>
+      <div class="new-ride-wrapper">
+        <div class="new-ride-container">
+          <form class="new-ride-form">
+            <div class="new-ride-row">
+              <input
+                type="text"
+                placeholder="Departure from"
+                class="new-ride-input"
+              />
+              <input
+                type="text"
+                placeholder="Arrive To"
+                class="new-ride-input"
+              />
+            </div>
+
+            <div class="new-ride-days">
+              <label><input type="checkbox" checked /> Mon</label>
+              <label><input type="checkbox" checked /> Tue</label>
+              <label><input type="checkbox" /> Wed</label>
+              <label><input type="checkbox" checked /> Thu</label>
+              <label><input type="checkbox" /> Fri</label>
+              <label><input type="checkbox" checked /> Sat</label>
+              <label><input type="checkbox" /> Sun</label>
+            </div>
+
+            <div class="new-ride-row">
+              <label class="new-ride-label">
+                Time
+                <select class="new-ride-input">
+                  <option>10:00 am</option>
+                </select>
+              </label>
+              <label class="new-ride-label">
+                Seats
+                <input type="number" value="2" min="1" class="new-ride-input" />
+              </label>
+              <label class="new-ride-label">
+                Fee
+                <input
+                  type="number"
+                  value="15"
+                  min="0"
+                  class="new-ride-input"
+                />
+              </label>
+            </div>
+
+            <fieldset class="new-ride-fieldset">
+              <legend class="new-ride-legend">Vehicle Details</legend>
+              <div class="new-ride-vehicle">
+                <label class="new-ride-label">
+                  Make
+                  <select class="new-ride-input">
+                    <option>Nissan</option>
+                  </select>
+                </label>
+                <label class="new-ride-label">
+                  Model
+                  <input
+                    type="text"
+                    placeholder="Car Model"
+                    class="new-ride-input"
+                  />
+                </label>
+                <label class="new-ride-label">
+                  Year
+                  <input
+                    type="number"
+                    value="2020"
+                    min="1900"
+                    max="2099"
+                    class="new-ride-input"
+                  />
+                </label>
+              </div>
+            </fieldset>
+            <div class="new-ride-actions">
+              <a href="#" class="new-ride-cancel">Cancel</a>
+              <button type="submit" class="new-ride-button">Create</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/rides.html">Rides</a></li>
+          <li><a href="/bookings.html">Bookings</a></li>
+          <li><a href="/settings.html">Settings</a></li>
+          <li><a href="/login.html">Login</a></li>
+          <li><a href="/register.html">Register</a></li>
+        </ul>
+      </nav>
+      <p>
+        <img
+          src="assets/img/copyright-icon.png"
+          alt="copy-logo"
+          width="13"
+          style="margin-right: 10px"
+        />Aventones.com
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aventones - Register</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/pages/register.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="top-header">
+        <img src="assets/img/car-icon.png" alt="Logo" class="logo-header" />
+        <h1>AVENTONES</h1>
+      </div>
+    </header>
+
+    <main>
+      <h2>User Registration</h2>
+      <div class="reg-wrapper">
+        <div class="reg-container">
+          <form class="reg-form">
+            <div class="reg-row">
+              <div class="reg-group">
+                <label class="reg-label">First Name</label>
+                <input type="text" class="reg-input" required />
+              </div>
+              <div class="reg-group">
+                <label class="reg-label">Last Name</label>
+                <input type="text" class="reg-input" required />
+              </div>
+            </div>
+
+            <div class="reg-group">
+              <label class="reg-label">Email</label>
+              <input type="email" class="reg-input" required />
+            </div>
+
+            <div class="reg-row">
+              <div class="reg-group">
+                <label class="reg-label">Password</label>
+                <input type="password" class="reg-input" required />
+              </div>
+              <div class="reg-group">
+                <label class="reg-label">Repeat Password</label>
+                <input type="password" class="reg-input" required />
+              </div>
+            </div>
+
+            <div class="reg-group">
+              <label class="reg-label">Address</label>
+              <input type="text" class="reg-input" required />
+            </div>
+
+            <div class="reg-row">
+              <div class="reg-group">
+                <label class="reg-label">Country</label>
+                <select class="reg-input" required>
+                  <option value="">Select</option>
+                  <option value="CR">Costa Rica</option>
+                  <option value="US">USA</option>
+                </select>
+              </div>
+              <div class="reg-group">
+                <label class="reg-label">State</label>
+                <input type="text" class="reg-input" required />
+              </div>
+            </div>
+
+            <div class="reg-row">
+              <div class="reg-group">
+                <label class="reg-label">City</label>
+                <input type="text" class="reg-input" required />
+              </div>
+              <div class="reg-group">
+                <label class="reg-label">Phone Number</label>
+                <input type="tel" class="reg-input" required />
+              </div>
+            </div>
+
+            <div class="reg-links">
+              <span
+                >Already an user?
+                <a href="#" class="reg-link">Login here</a></span
+              >
+              <span
+                >Register as driver?
+                <a href="#" class="reg-link">Click here</a></span
+              >
+            </div>
+
+            <button type="submit" class="reg-button">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/rides.html">Rides</a></li>
+          <li><a href="/bookings.html">Bookings</a></li>
+          <li><a href="/settings.html">Settings</a></li>
+          <li><a href="/login.html">Login</a></li>
+          <li><a href="/register.html">Register</a></li>
+        </ul>
+      </nav>
+      <p>
+        <img
+          src="assets/img/copyright-icon.png"
+          alt="copy-logo"
+          width="14"
+          style="margin-right: 10px"
+        />Aventones.com
+      </p>
+    </footer>
+  </body>
+</html>

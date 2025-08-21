@@ -1,0 +1,68 @@
+.perfil-form-container {
+  width: 550px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.perfil-form {
+  width: 100%;
+}
+
+.perfil-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.perfil-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.perfil-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.perfil-textarea {
+  resize: vertical;
+}
+
+.perfil-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perfil-cancel {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.perfil-cancel:hover {
+  text-decoration: underline;
+}
+
+.perfil-save {
+  background: #2e75d3;
+  color: white;
+  padding: 10px 58px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.perfil-save:hover {
+  background-color: #1a5fb4;
+}

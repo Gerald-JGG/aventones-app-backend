@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Koning Display';
+  src: url('../assets/fonts/KoningDisplayUltraLight.woff2') format('woff2');
+  font-weight: 100;
+}
+
+main h2 {
+  text-align: center;
+  font-family: 'Koning Display', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #606060;
+  margin: 0 auto 10px auto;   
+  margin-top: 35px;
+  position: relative;
+  display: block;        
+  width: fit-content;        
+}
+
+
+main h2::after {
+  content: '';
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: #aaa;
+  margin: 8px auto 0; 
+}
+

@@ -1,0 +1,136 @@
+/* ===== Header ===== */
+header {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  position: relative;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+}
+
+.top-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 24px;
+  letter-spacing: 5px;
+  gap: 19px;
+}
+
+.top-header img {
+  transform: translateY(-5px);
+}
+
+.logo-header {
+  width: 53px;
+  height: 53px;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 62px;
+  background-color: #f8f8f8;
+}
+
+header .bottom-header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header .bottom-header nav ul li {
+  height: 100%;
+}
+
+header .bottom-header nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 44px;
+  text-decoration: none;
+  color: #898989;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header .bottom-header nav ul li a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.search-user {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+  margin-left: auto;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 2px solid #e6e6e6;
+  border-radius: 6px;
+  width: 250px;
+  margin-left: -300px;
+}
+
+.search-bar input::placeholder {
+  font-size: 15px;   
+  padding-left: 13px;  
+}
+
+.user-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px;
+  transform: translateX(-10px);
+}
+
+/* ===== Footer ===== */
+footer {
+  border-top: 1px solid #e6e6e6;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+  font-size: 15px;
+  color: #666;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+footer nav ul li a:hover {
+  color: var(--primary-color);
+}
+
+footer nav ul li + li {
+  border-left: 2px solid #ccc;
+  padding-left: 20px;
+}

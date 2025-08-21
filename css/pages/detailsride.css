@@ -1,0 +1,128 @@
+.ride-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  font-family: Arial, sans-serif;
+}
+
+.ride-container {
+  width: 50%;
+  padding: 20px 10px;
+}
+
+.ride-profile {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ride-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.ride-username {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.ride-form {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.ride-row-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.ride-label {
+  color: #555;
+  font-size: 13px;
+  text-align: center;
+}
+
+.ride-value {
+  font-size: 25px;
+  color: #444;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+}
+
+.ride-days {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.ride-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.ride-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.ride-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 3px;
+}
+
+.ride-fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.ride-fieldset legend {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ride-vehicle {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.ride-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.ride-cancel {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ride-button {
+  background: #2e75d3;
+  color: white;
+  padding: 10px 58px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.ride-button:hover {
+  background: #1a5fb4;
+}
