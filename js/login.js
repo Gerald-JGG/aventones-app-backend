@@ -12,21 +12,32 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
+    // Buscar en usuarios regulares
     const users = JSON.parse(localStorage.getItem('users')) || [];
-    
-    // Buscar usuario por email y contraseña
     const user = users.find(u => u.email === email && u.password === password);
 
-    if (!user) {
-      showError('Email o contraseña incorrectos');
+    if (user) {
+      // Usuario regular encontrado
+      user.userType = 'user'; // Asegurar que tenga el tipo correcto
+      localStorage.setItem('currentUser', JSON.stringify(user));
+      window.location.href = '/home.html';
       return;
     }
 
-    // Iniciar sesión
-    localStorage.setItem('currentUser', JSON.stringify(user));
-    
-    // Redirigir al home
-    window.location.href = '/home.html';
+    // Buscar en drivers
+    const drivers = JSON.parse(localStorage.getItem('drivers')) || [];
+    const driver = drivers.find(d => d.email === email && d.password === password);
+
+    if (driver) {
+      // Driver encontrado
+      driver.userType = 'driver'; // Asegurar que tenga el tipo correcto
+      localStorage.setItem('currentUser', JSON.stringify(driver));
+      window.location.href = '/home.html';
+      return;
+    }
+
+    // No se encontró ningún usuario
+    showError('Email o contraseña incorrectos');
   });
 
   function showError(message) {
